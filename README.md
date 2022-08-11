@@ -1,7 +1,8 @@
 # CMPG-323-Project-4
-Project 4 for CMPG 323. In this project we will be learning and implementing RPA and Testing
+Project 4 for CMPG 323. In this project we will be learning and implementing RPA and Testing.
+RPA allows us to test our projects in the same way the user would test our system. 
 
-# This project will reach it's end in 2022-10-20
+# This project will reach its end in 2022-10-20
 
 # There will be 3 Branches:
 <ul>
