@@ -1,12 +1,25 @@
-# CMPG-323-Project-4
-Project 4 for CMPG 323. In this project we will be learning and implementing RPA and Testing.
-RPA allows us to test our projects in the same way the user would test our system. 
-
-# This project will reach its end in 2022-10-20
-
-# There will be 3 Branches:
+<h1>Branching Strategy</h1>
 <ul>
-    <li>Main: The active branch which holds the most stable version</li>
-    <li>Hotfix: This branch is there for small and quick bug patches</li>
-    <li>Development: This branch is there for feature development and testing</li>
+    <li>main: Production ready to be used Branch</li>
+    <li>hotfix: Branch to patch small issues</li>
+    <li>development Zones: Development branch where all functionality relating to Zones are done</li>
+    <li>development Devices: Development branch where all functionality relating to Devices are done</li>
+    <li>development Categories: Development branch where all functionality relating to Categories are done</li>
 </ul>
+<hr>
+<h1>Process Definition Document</h1>
+<ul>
+    <li>Login Process</li>
+    <li>Delete All Zones Process</li>
+    <li>Delete All Devices Process</li>
+    <li>Delete All Categories Process</li>
+    <li>Create All Zones From Workbook</li>
+    <li>Create All Devices From Workbook</li>
+    <li>Create All Categories From Workbook</li>
+    <li>Read All Zones From Workbook</li>
+    <li>Read All Devices From Workbook</li>
+    <li>Read All Categories From Workbook</li>
+    <li>Compare Input Data and Returned Data</li>
+    <li>Create Report</li>
+</ul>
+<hr>
