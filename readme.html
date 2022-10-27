@@ -32,5 +32,65 @@
         <li>Create Report</li>
     </ul>
     <hr>
+    <h1>Requirements</h1>
+    <ul>
+        
+        <li>Requires a text file to be placed in the root directory with the following format</li>
+        
+        <p>Username <br>
+            Password</p>
+        <li>Requires an excel Workbook in the root folder with the following sheets:
+            <ul>
+                <li>Device</li>
+                <li>Zone</li>
+                <li>Category</li>
+                <li>Test Results</li>
+            </ul>
+        </li>
+        <li>All True/False Values in Worksheet need to be indicated with Uppercase</li>
+    </ul>
+    <hr>
+    <h1>Order of opperation</h1>
+    <ul>
+        <li>First Log in</li>
+        <li>The RPA will start by cleaning the websites data.</li>
+        <li>Then extract all the different sheets from the excel Workbook</li>
+        <li>Then the CRUD tests will be done on the Zone Data</li>
+        <li>Then the CRUD tests will be done on the Category Data</li>
+        <li>Then finally the CRUD tests will be done on the Device Data</li>
+        <li>Finally Logging out</li>
+    </ul>
+    <hr>
+    <h1>Reference List</h1>
+    <ol>
+        <li>
+            <a href="https://www.youtube.com/watch?v=BAYmmUuB2Zo">UIPath Video Tutorial</a>
+        </li>
+        <li> <a href="https://docs.uipath.com/activities/docs/lookup-data-table">How to check for data in extracted table</a> </li>
+        <li> <a href="https://forum.uipath.com/t/search-value-in-the-datatable/2349">Community Discussion about Datatables</a> </li>
+        <li> <a href="https://forum.uipath.com/t/can-we-call-previous-sequence-when-using-sequence-format-rather-than-flowchart/152208">How to call other Seqences</a> </li>
+        <li> <a href="https://www.youtube.com/watch?v=56w1TRCR2Ds&ab_channel=TheLearningBird">UiPath-Invoke WorkflowFile Activity-How to call one workflow or Sequence from another sequence</a> </li>
+        <li> <a href="https://docs.uipath.com/activities/docs/write-text-file">How to work with text files</a> </li>
+        <li> <a href="https://forum.uipath.com/t/how-to-create-user-defined-data-type-variable-for-uipath/270587">Create custom datatypes</a> </li>
+        <li> <a href="https://forum.uipath.com/t/option-to-create-complex-datatypes/2904">Create Complex Datatypes</a> </li>
+        <li> <a href="https://forum.uipath.com/t/open-excel-file/6923">How to read excel Files</a> </li>
+        <li> <a href="https://docs.uipath.com/activities/docs/read-write-and-append-data-in-excel">Read, Write, and Append Data in Excel</a></li>
+        <li> <a href="https://docs.uipath.com/activities/docs/read-from-excel-files">Read from Excel Files</a></li>
+        <li> <a href="https://forum.uipath.com/t/how-to-select-an-element-from-dropdown/77887">Select Drop Down</a></li>
+        <li> <a href="https://docs.uipath.com/activities/docs/click">How to use Click</a></li>
+        <li> <a href="https://efundi.nwu.ac.za/access/content/group/b4bd0272-e3c3-4151-b9ce-3888cdadc374/Training/Introduction%20To%20Uipath.m4v">Basic to UIPath</a></li>
+        <li> <a href="https://docs.uipath.com/studio/v2022.10/docs/creating-basic-process">Creating a basic process</a></li>
+        <li> <a href="https://academy.uipath.com/learning-plans/rpa-starter">Basic Training</a></li>
+        <li> <a href="https://docs.uipath.com/studio/v2022.10/docs/sequences">How to use Sequences</a></li>
+        <li> <a href="https://docs.uipath.com/studio/v2022.10/docs/text-variables">String Variables</a></li>
+        <li> <a href="https://docs.uipath.com/studio/v2022.10/docs/true-or-false-variables">How to work with booleans</a></li>
+        <li> <a href="https://docs.uipath.com/studio/v2022.10/docs/number-variables">Decimal Values</a></li>
+        <li> <a href="https://docs.uipath.com/activities/docs/open-browser">Open a program</a></li>
+        <li> <a href="https://forum.uipath.com/t/change-the-url-in-the-browser-already-opened/104281">Changing URL in browser</a></li>
+        <li> <a href="https://www.theserverside.com/blog/Coffee-Talk-Java-News-Stories-and-Opinions/Pass-UiPath-Arguments-Example-Tutorial">Passing Values as Arguments</a></li>
+        <li> <a href="https://youtu.be/wpu4vjI36pM">Video on how to pass arguments</a></li>
+        <li> <a href="https://forum.uipath.com/t/how-to-check-if-checkbox-is-checked-or-unchecked/170558">Check Checkboxes</a></li>
+        <li> <a href="https://www.youtube.com/watch?v=GHwgn8BFz8Y&t=275s&ab_channel=AutomatewithRakesh">Video on how to use Checkboxes</a></li>
+    </ol>
 </body>
 </html>
