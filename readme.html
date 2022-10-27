@@ -32,5 +32,33 @@
         <li>Create Report</li>
     </ul>
     <hr>
+    <h1>Requirements</h1>
+    <ul>
+        
+        <li>Requires a text file to be placed in the root directory with the following format</li>
+        
+        <p>Username <br>
+            Password</p>
+        <li>Requires an excel Workbook in the root folder with the following sheets:
+            <ul>
+                <li>Device</li>
+                <li>Zone</li>
+                <li>Category</li>
+                <li>Test Results</li>
+            </ul>
+        </li>
+        <li>All True/False Values in Worksheet need to be indicated with Uppercase</li>
+    </ul>
+    <hr>
+    <h1>Order of opperation</h1>
+    <ul>
+        <li>First Log in</li>
+        <li>The RPA will start by cleaning the websites data.</li>
+        <li>Then extract all the different sheets from the excel Workbook</li>
+        <li>Then the CRUD tests will be done on the Zone Data</li>
+        <li>Then the CRUD tests will be done on the Category Data</li>
+        <li>Then finally the CRUD tests will be done on the Device Data</li>
+        <li>Finally Logging out</li>
+    </ul>
 </body>
 </html>

@@ -6,7 +6,7 @@
     <x:Property Name="ReportSheet" Type="InOutArgument(sd:DataTable)" />
   </x:Members>
   <sap2010:ExpressionActivityEditor.ExpressionActivityEditor>C#</sap2010:ExpressionActivityEditor.ExpressionActivityEditor>
-  <sap:VirtualizedContainerService.HintSize>1273,2471</sap:VirtualizedContainerService.HintSize>
+  <sap:VirtualizedContainerService.HintSize>1048,2471</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>ActivityBuilder_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <sco:Collection x:TypeArguments="x:String">
@@ -145,7 +145,7 @@
                           <If sap:VirtualizedContainerService.HintSize="770,1501" sap2010:WorkflowViewState.IdRef="If_3">
                             <If.Condition>
                               <InArgument x:TypeArguments="x:Boolean">
-                                <CSharpValue x:TypeArguments="x:Boolean" sap2010:WorkflowViewState.IdRef="CSharpValue`1_3">CurrentSheet.Name == "Device"</CSharpValue>
+                                <CSharpValue x:TypeArguments="x:Boolean" sap2010:WorkflowViewState.IdRef="CSharpValue`1_10">CurrentSheet.Name. ToUpper() == "DEVICE"</CSharpValue>
                               </InArgument>
                             </If.Condition>
                             <If.Then>
@@ -179,7 +179,7 @@
                                 <If sap:VirtualizedContainerService.HintSize="626,1024" sap2010:WorkflowViewState.IdRef="If_4">
                                   <If.Condition>
                                     <InArgument x:TypeArguments="x:Boolean">
-                                      <CSharpValue x:TypeArguments="x:Boolean" sap2010:WorkflowViewState.IdRef="CSharpValue`1_5">CurrentSheet.Name == "Zone"</CSharpValue>
+                                      <CSharpValue x:TypeArguments="x:Boolean" sap2010:WorkflowViewState.IdRef="CSharpValue`1_11">CurrentSheet.Name.ToUpper == "ZONE"</CSharpValue>
                                     </InArgument>
                                   </If.Condition>
                                   <If.Then>
@@ -213,7 +213,7 @@
                                       <If sap:VirtualizedContainerService.HintSize="482,547" sap2010:WorkflowViewState.IdRef="If_5">
                                         <If.Condition>
                                           <InArgument x:TypeArguments="x:Boolean">
-                                            <CSharpValue x:TypeArguments="x:Boolean" sap2010:WorkflowViewState.IdRef="CSharpValue`1_7">CurrentSheet.Name == "Category"</CSharpValue>
+                                            <CSharpValue x:TypeArguments="x:Boolean" sap2010:WorkflowViewState.IdRef="CSharpValue`1_12">CurrentSheet.Name.ToUpper == "CATEGORY"</CSharpValue>
                                           </InArgument>
                                         </If.Condition>
                                         <If.Then>
